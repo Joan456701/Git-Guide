@@ -76,3 +76,9 @@ git stash list
  git log --online
  git revert [COMIT_ID]
  ```
+
+### 12.Cherry Pick
+```
+git log --online
+git cherry-pick [COMIT_ID]
+```

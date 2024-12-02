@@ -82,3 +82,19 @@ git stash list
 git log --online
 git cherry-pick [COMIT_ID]
 ```
+
+### 13.Reset
+```
+git log --online
+git reset --soft HEAD~1
+```
+
+### 14.Create Patch
+```
+git diff HEAD > <file>
+```
+
+### 15.Apply Patch
+```
+git apply <file>
+```

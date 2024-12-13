@@ -98,3 +98,10 @@ git diff HEAD > <file>
 ```
 git apply <file>
 ```
+
+### 16.Init GitHub
+```
+git remote add origin [REMOTE-URL]
+git push -u origin master
+git push origin --all
+```
